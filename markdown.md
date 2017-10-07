@@ -135,6 +135,16 @@ Nom|Prenom|Age|
 
 ## Collapse/Extend a block
 
+```
+<details>
+<summary>
+Cliquer sur la fleche pour afficher le contenu du bloc
+</summary>
+Voila un contenu qui en dit long
+</details>
+```
+
+
 <details>
 <summary>
 Cliquer sur la fleche pour afficher le contenu du bloc
