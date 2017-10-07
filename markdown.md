@@ -75,8 +75,11 @@ on peut utiliser simplement la balise html `<br>`
 ## Horizontal rules
 
 au moins 3 - ou 3 = <br>
-> ---
-> ===
+
+---
+
+
+
 attention a bien ajouter une ligne vide afin que ce ne soit pas interprété en H1
 
 ## Block quotes
@@ -120,15 +123,35 @@ on sépare les lignes avec --- <br>
 
 Attention sous Github le centrage n'est pas reconnu, donc ne pas utiliser la technique des `:` en début ou fin des lignes pointillées` :
 
->Nom|Prenom|Age|
->------|---|---|
->Doe|John|36|
-
 Nom|Prenom|Age|
 ------|---|---|
 |Doe|John|36|
 
 ## Checkbox
 
-- [ ] Checkbox vide : `- [ ]`
-- [x] Checkbox checked : `- [x]` 
+- [ ] Checkbox vide : `[ ]`
+- [x] Checkbox checked : `[x]` 
+
+
+## Collapse/Extend a block
+
+<details>
+<summary>
+Cliquer sur la fleche pour afficher le contenu du bloc
+</summary>
+Voila un contenu qui en dit long
+
+>Et on peut ajouter des blocs
+>dans des blocs<br>
+>et encore
+
+```js
+var code = 'du code js';
+
+function display(text){
+console.log(text);
+}
+
+display(code)
+```
+</details>
